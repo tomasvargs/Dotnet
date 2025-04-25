@@ -1,0 +1,42 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.card {
+  border: 1px solid #ccc;
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.05); /* Zoom effect on hover */
+}
+
+.btn.btn-black {
+  background-color: black !important; /* Force the background to black */
+  color: white !important;           /* Force the text to white */
+  border: none !important;
+}
+
+.btn.btn-black:hover {
+  background-color: #333 !important; /* Darker black for hover effect */
+  color: white !important;
+}

@@ -1,0 +1,46 @@
+﻿@{
+    ViewData["Title"] = "About Us";
+}
+
+<div class="container mt-5">
+    <!-- About Us Section -->
+    <div class="text-center mb-4">
+        <h1 class="display-4">@ViewData["Title"]</h1>
+        <p class="lead">
+            Welcome to Trendy Threads, your one-stop destination for all your clothing needs. We bring the latest styles, 
+            seasonal trends, and timeless classics directly to your doorstep. At Trendy Threads, we are committed to 
+            delivering high-quality apparel and exceptional customer service, ensuring you look and feel your best.
+        </p>
+        <p>
+            Our vision is to inspire confidence and individuality through fashion while staying eco-friendly and 
+            sustainable. Whether you're dressing for work, leisure, or special occasions, we've got something just for you.
+        </p>
+    </div>
+
+    <!-- Featured Image Section -->
+    <div class="image-section mb-5 text-center">
+        <img src="https://image.hm.com/assets/hm/60/d4/60d40808d0635af51439483ee88e43d11c3b18be.jpg?imwidth=2160" alt="Stylish Clothing Shop Banner" class="img-fluid" style="width: 100%; height: auto; border-radius: 10px;" />
+        <p class="mt-3 text-muted">
+            At Trendy Threads, every outfit tells a story. Explore timeless fashion that complements your style and inspires confidence.
+        </p>
+    </div>
+
+    <!-- Email Section -->
+    <div class="contact-form mb-5">
+        <h2 class="text-center">Get in Touch</h2>
+        <p class="text-center mb-4">Have questions? We'd love to hear from you! Drop us a message below:</p>
+        <form method="post" action="/Home/SendEmail" class="mx-auto" style="max-width: 600px;">
+            <div class="form-group mb-3">
+                <label for="email" class="form-label">Your Email</label>
+                <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email" required>
+            </div>
+            <div class="form-group mb-3">
+                <label for="message" class="form-label">Your Message</label>
+                <textarea class="form-control" id="message" name="message" rows="5" placeholder="Write your message" required></textarea>
+            </div>
+            <div class="text-center">
+                <button type="submit" class="btn btn-black">Send Email</button>
+            </div>
+        </form>
+    </div>
+</div>

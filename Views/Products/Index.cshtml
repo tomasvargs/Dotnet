@@ -1,0 +1,19 @@
+@model List<EcomApp.Models.Product>
+
+<h1 class="text-center">Products</h1>
+
+<div class="container mb-5">
+    <div class="row flex-nowrap overflow-auto" style="white-space: nowrap;">
+        @foreach (var product in Model)
+        {
+            <div class="card m-2" style="width: 19rem; display: inline-block;">
+                <img src="@product.ImageUrl" class="card-img-top" alt="@product.Name" />
+                <div class="card-body">
+                    <h5 class="card-title" style="white-space: normal;">@product.Name</h5>
+                    <p class="card-text" style="white-space: normal;">@product.Description</p>
+                    <p class="card-text"><strong>Price: $@product.Price</strong></p>
+                </div>
+            </div>
+        }
+    </div>
+</div>
