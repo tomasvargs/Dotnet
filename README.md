@@ -48,6 +48,6 @@ dotnet run
 # Browse the application locally
 http://localhost:5099
 
-![Homepage](home.png)
+![Screen Shopt](home.png?raw=true "Screen Shot")
 
 
