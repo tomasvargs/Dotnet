@@ -48,6 +48,6 @@ dotnet run
 # Browse the application locally
 http://localhost:5099
 
-![Homepage](home.png)
+![Homepage](/home.png)
 
 
