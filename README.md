@@ -50,4 +50,5 @@ http://localhost:5099
 
 ![Screen Shopt](assets/home.png?raw=true "Screen Shot")
 
+<img width="1786" height="750" alt="home" src="https://github.com/user-attachments/assets/3efb9c5b-f83c-4f6a-97c7-8d79c4e5ad44" />
 
