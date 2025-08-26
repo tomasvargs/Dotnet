@@ -1,3 +1,4 @@
+
 # 🧪 EcomApp — Minimal ASP.NET Core Sample Website
 
 EcomApp is a lightweight ASP.NET Core web application built with .NET 8. It serves as a foundational template for an e-commerce site, showcasing basic routing and view rendering using MVC architecture. This version includes a simple homepage and product view, without database integration, authentication, or cart functionality.
@@ -47,10 +48,9 @@ dotnet run
 
 # Browse the application locally
 http://localhost:5099
-
-
-<p align="center">
-  <img src="assets/home.png?raw=true" alt="Home Page" width="600"/>
-</p>
+```
+![Home Page](assets/home.png?raw=true "Screen Shot")
+![Abot Page](assets/about.png?raw=true "Screen Shot")
+![Products Page](assets/products.png?raw=true "Screen Shot")
 
 
