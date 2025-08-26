@@ -47,6 +47,10 @@ dotnet run
 
 # Browse the application locally
 http://localhost:5099
----
-![Home Page](assets/home.png?raw=true "Screen Shot")
+
+
+<p align="center">
+  <img src="assets/home.png?raw=true" alt="Home Page" width="600"/>
+</p>
+
 
